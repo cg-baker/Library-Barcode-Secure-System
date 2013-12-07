@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD8082A1853BBF2009ED5AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD808291853BBF2009ED5AD /* Foundation.framework */; };
+		5FD8082C1853BBF2009ED5AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8082B1853BBF2009ED5AD /* CoreGraphics.framework */; };
+		5FD8082E1853BBF2009ED5AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8082D1853BBF2009ED5AD /* UIKit.framework */; };
+		5FD808341853BBF2009ED5AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD808321853BBF2009ED5AD /* InfoPlist.strings */; };
+		5FD808361853BBF2009ED5AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808351853BBF2009ED5AD /* main.m */; };
+		5FD8083A1853BBF2009ED5AD /* LBSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808391853BBF2009ED5AD /* LBSSAppDelegate.m */; };
+		5FD8083D1853BBF2009ED5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8083B1853BBF2009ED5AD /* Main.storyboard */; };
+		5FD808401853BBF2009ED5AD /* LBSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD8083F1853BBF2009ED5AD /* LBSSViewController.m */; };
+		5FD808421853BBF2009ED5AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD808411853BBF2009ED5AD /* Images.xcassets */; };
+		5FD808491853BBF3009ED5AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD808481853BBF3009ED5AD /* XCTest.framework */; };
+		5FD8084A1853BBF3009ED5AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD808291853BBF2009ED5AD /* Foundation.framework */; };
+		5FD8084B1853BBF3009ED5AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8082D1853BBF2009ED5AD /* UIKit.framework */; };
+		5FD808531853BBF3009ED5AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD808511853BBF3009ED5AD /* InfoPlist.strings */; };
+		5FD808551853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808541853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD8084C1853BBF3009ED5AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD8081E1853BBF2009ED5AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD808251853BBF2009ED5AD;
+			remoteInfo = "Library Barcode Secure System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD808261853BBF2009ED5AD /* Library Barcode Secure System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Barcode Secure System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD808291853BBF2009ED5AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FD8082B1853BBF2009ED5AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FD8082D1853BBF2009ED5AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FD808311853BBF2009ED5AD /* Library Barcode Secure System-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library Barcode Secure System-Info.plist"; sourceTree = "<group>"; };
+		5FD808331853BBF2009ED5AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD808351853BBF2009ED5AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FD808371853BBF2009ED5AD /* Library Barcode Secure System-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library Barcode Secure System-Prefix.pch"; sourceTree = "<group>"; };
+		5FD808381853BBF2009ED5AD /* LBSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSSAppDelegate.h; sourceTree = "<group>"; };
+		5FD808391853BBF2009ED5AD /* LBSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSSAppDelegate.m; sourceTree = "<group>"; };
+		5FD8083C1853BBF2009ED5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FD8083E1853BBF2009ED5AD /* LBSSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBSSViewController.h; sourceTree = "<group>"; };
+		5FD8083F1853BBF2009ED5AD /* LBSSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSSViewController.m; sourceTree = "<group>"; };
+		5FD808411853BBF2009ED5AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FD808471853BBF3009ED5AD /* Library Barcode Secure SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library Barcode Secure SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD808481853BBF3009ED5AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5FD808501853BBF3009ED5AD /* Library Barcode Secure SystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library Barcode Secure SystemTests-Info.plist"; sourceTree = "<group>"; };
+		5FD808521853BBF3009ED5AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD808541853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Library_Barcode_Secure_SystemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD808231853BBF2009ED5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD8082C1853BBF2009ED5AD /* CoreGraphics.framework in Frameworks */,
+				5FD8082E1853BBF2009ED5AD /* UIKit.framework in Frameworks */,
+				5FD8082A1853BBF2009ED5AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD808441853BBF3009ED5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD808491853BBF3009ED5AD /* XCTest.framework in Frameworks */,
+				5FD8084B1853BBF3009ED5AD /* UIKit.framework in Frameworks */,
+				5FD8084A1853BBF3009ED5AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD8081D1853BBF2009ED5AD = {
+			isa = PBXGroup;
+			children = (
+				5FD8082F1853BBF2009ED5AD /* Library Barcode Secure System */,
+				5FD8084E1853BBF3009ED5AD /* Library Barcode Secure SystemTests */,
+				5FD808281853BBF2009ED5AD /* Frameworks */,
+				5FD808271853BBF2009ED5AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD808271853BBF2009ED5AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD808261853BBF2009ED5AD /* Library Barcode Secure System.app */,
+				5FD808471853BBF3009ED5AD /* Library Barcode Secure SystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD808281853BBF2009ED5AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD808291853BBF2009ED5AD /* Foundation.framework */,
+				5FD8082B1853BBF2009ED5AD /* CoreGraphics.framework */,
+				5FD8082D1853BBF2009ED5AD /* UIKit.framework */,
+				5FD808481853BBF3009ED5AD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD8082F1853BBF2009ED5AD /* Library Barcode Secure System */ = {
+			isa = PBXGroup;
+			children = (
+				5FD808381853BBF2009ED5AD /* LBSSAppDelegate.h */,
+				5FD808391853BBF2009ED5AD /* LBSSAppDelegate.m */,
+				5FD8083B1853BBF2009ED5AD /* Main.storyboard */,
+				5FD8083E1853BBF2009ED5AD /* LBSSViewController.h */,
+				5FD8083F1853BBF2009ED5AD /* LBSSViewController.m */,
+				5FD808411853BBF2009ED5AD /* Images.xcassets */,
+				5FD808301853BBF2009ED5AD /* Supporting Files */,
+			);
+			path = "Library Barcode Secure System";
+			sourceTree = "<group>";
+		};
+		5FD808301853BBF2009ED5AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD808311853BBF2009ED5AD /* Library Barcode Secure System-Info.plist */,
+				5FD808321853BBF2009ED5AD /* InfoPlist.strings */,
+				5FD808351853BBF2009ED5AD /* main.m */,
+				5FD808371853BBF2009ED5AD /* Library Barcode Secure System-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD8084E1853BBF3009ED5AD /* Library Barcode Secure SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD808541853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m */,
+				5FD8084F1853BBF3009ED5AD /* Supporting Files */,
+			);
+			path = "Library Barcode Secure SystemTests";
+			sourceTree = "<group>";
+		};
+		5FD8084F1853BBF3009ED5AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD808501853BBF3009ED5AD /* Library Barcode Secure SystemTests-Info.plist */,
+				5FD808511853BBF3009ED5AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD808251853BBF2009ED5AD /* Library Barcode Secure System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD808581853BBF3009ED5AD /* Build configuration list for PBXNativeTarget "Library Barcode Secure System" */;
+			buildPhases = (
+				5FD808221853BBF2009ED5AD /* Sources */,
+				5FD808231853BBF2009ED5AD /* Frameworks */,
+				5FD808241853BBF2009ED5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Library Barcode Secure System";
+			productName = "Library Barcode Secure System";
+			productReference = 5FD808261853BBF2009ED5AD /* Library Barcode Secure System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD808461853BBF3009ED5AD /* Library Barcode Secure SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD8085B1853BBF3009ED5AD /* Build configuration list for PBXNativeTarget "Library Barcode Secure SystemTests" */;
+			buildPhases = (
+				5FD808431853BBF3009ED5AD /* Sources */,
+				5FD808441853BBF3009ED5AD /* Frameworks */,
+				5FD808451853BBF3009ED5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD8084D1853BBF3009ED5AD /* PBXTargetDependency */,
+			);
+			name = "Library Barcode Secure SystemTests";
+			productName = "Library Barcode Secure SystemTests";
+			productReference = 5FD808471853BBF3009ED5AD /* Library Barcode Secure SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD8081E1853BBF2009ED5AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LBSS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CBaker;
+				TargetAttributes = {
+					5FD808461853BBF3009ED5AD = {
+						TestTargetID = 5FD808251853BBF2009ED5AD;
+					};
+				};
+			};
+			buildConfigurationList = 5FD808211853BBF2009ED5AD /* Build configuration list for PBXProject "Library Barcode Secure System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FD8081D1853BBF2009ED5AD;
+			productRefGroup = 5FD808271853BBF2009ED5AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD808251853BBF2009ED5AD /* Library Barcode Secure System */,
+				5FD808461853BBF3009ED5AD /* Library Barcode Secure SystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD808241853BBF2009ED5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD808421853BBF2009ED5AD /* Images.xcassets in Resources */,
+				5FD808341853BBF2009ED5AD /* InfoPlist.strings in Resources */,
+				5FD8083D1853BBF2009ED5AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD808451853BBF3009ED5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD808531853BBF3009ED5AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD808221853BBF2009ED5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD808401853BBF2009ED5AD /* LBSSViewController.m in Sources */,
+				5FD8083A1853BBF2009ED5AD /* LBSSAppDelegate.m in Sources */,
+				5FD808361853BBF2009ED5AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD808431853BBF3009ED5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD808551853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD8084D1853BBF3009ED5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD808251853BBF2009ED5AD /* Library Barcode Secure System */;
+			targetProxy = 5FD8084C1853BBF3009ED5AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD808321853BBF2009ED5AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD808331853BBF2009ED5AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FD8083B1853BBF2009ED5AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD8083C1853BBF2009ED5AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD808511853BBF3009ED5AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD808521853BBF3009ED5AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD808561853BBF3009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FD808571853BBF3009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD808591853BBF3009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library Barcode Secure System/Library Barcode Secure System-Prefix.pch";
+				INFOPLIST_FILE = "Library Barcode Secure System/Library Barcode Secure System-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FD8085A1853BBF3009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library Barcode Secure System/Library Barcode Secure System-Prefix.pch";
+				INFOPLIST_FILE = "Library Barcode Secure System/Library Barcode Secure System-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FD8085C1853BBF3009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library Barcode Secure System.app/Library Barcode Secure System";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library Barcode Secure System/Library Barcode Secure System-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Library Barcode Secure SystemTests/Library Barcode Secure SystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5FD8085D1853BBF3009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library Barcode Secure System.app/Library Barcode Secure System";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library Barcode Secure System/Library Barcode Secure System-Prefix.pch";
+				INFOPLIST_FILE = "Library Barcode Secure SystemTests/Library Barcode Secure SystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD808211853BBF2009ED5AD /* Build configuration list for PBXProject "Library Barcode Secure System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD808561853BBF3009ED5AD /* Debug */,
+				5FD808571853BBF3009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD808581853BBF3009ED5AD /* Build configuration list for PBXNativeTarget "Library Barcode Secure System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD808591853BBF3009ED5AD /* Debug */,
+				5FD8085A1853BBF3009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD8085B1853BBF3009ED5AD /* Build configuration list for PBXNativeTarget "Library Barcode Secure SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD8085C1853BBF3009ED5AD /* Debug */,
+				5FD8085D1853BBF3009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD8081E1853BBF2009ED5AD /* Project object */;
+}
