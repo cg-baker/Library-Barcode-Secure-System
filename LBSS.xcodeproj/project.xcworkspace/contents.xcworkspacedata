@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Library Barcode Secure System.xcodeproj">
+      location = "self:LBSS.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F22236118591081002A3515 /* BarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F22236018591081002A3515 /* BarViewController.m */; };
+		5F54CDFF1857AD3C005B63E0 /* LibraryDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54CDFE1857AD3C005B63E0 /* LibraryDataBase.m */; };
+		5F54CE031857AD75005B63E0 /* LibraryUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54CE021857AD75005B63E0 /* LibraryUser.m */; };
+		5F54CE081857B337005B63E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8083B1853BBF2009ED5AD /* Main.storyboard */; };
+		5F7AA56918591B0A00EA1D63 /* BarcodeDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7AA56818591B0A00EA1D63 /* BarcodeDisplayView.m */; };
 		5FD8082A1853BBF2009ED5AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD808291853BBF2009ED5AD /* Foundation.framework */; };
 		5FD8082C1853BBF2009ED5AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8082B1853BBF2009ED5AD /* CoreGraphics.framework */; };
 		5FD8082E1853BBF2009ED5AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8082D1853BBF2009ED5AD /* UIKit.framework */; };
 		5FD808341853BBF2009ED5AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD808321853BBF2009ED5AD /* InfoPlist.strings */; };
 		5FD808361853BBF2009ED5AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808351853BBF2009ED5AD /* main.m */; };
 		5FD8083A1853BBF2009ED5AD /* LBSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808391853BBF2009ED5AD /* LBSSAppDelegate.m */; };
-		5FD8083D1853BBF2009ED5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD8083B1853BBF2009ED5AD /* Main.storyboard */; };
 		5FD808401853BBF2009ED5AD /* LBSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD8083F1853BBF2009ED5AD /* LBSSViewController.m */; };
 		5FD808421853BBF2009ED5AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD808411853BBF2009ED5AD /* Images.xcassets */; };
 		5FD808491853BBF3009ED5AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD808481853BBF3009ED5AD /* XCTest.framework */; };
@@ -21,6 +25,8 @@
 		5FD8084B1853BBF3009ED5AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8082D1853BBF2009ED5AD /* UIKit.framework */; };
 		5FD808531853BBF3009ED5AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD808511853BBF3009ED5AD /* InfoPlist.strings */; };
 		5FD808551853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808541853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m */; };
+		5FD808661853EED8009ED5AD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808651853EED8009ED5AD /* User.m */; };
+		5FD808691853EFAA009ED5AD /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD808681853EFAA009ED5AD /* Barcode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FD808261853BBF2009ED5AD /* Library Barcode Secure System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Barcode Secure System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F22235F18591081002A3515 /* BarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarViewController.h; sourceTree = "<group>"; };
+		5F22236018591081002A3515 /* BarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarViewController.m; sourceTree = "<group>"; };
+		5F54CDFE1857AD3C005B63E0 /* LibraryDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryDataBase.m; sourceTree = "<group>"; };
+		5F54CE001857AD4B005B63E0 /* LibraryUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryUser.h; sourceTree = "<group>"; };
+		5F54CE011857AD6B005B63E0 /* LibraryDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryDataBase.h; sourceTree = "<group>"; };
+		5F54CE021857AD75005B63E0 /* LibraryUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryUser.m; sourceTree = "<group>"; };
+		5F7AA56718591B0A00EA1D63 /* BarcodeDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeDisplayView.h; sourceTree = "<group>"; };
+		5F7AA56818591B0A00EA1D63 /* BarcodeDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeDisplayView.m; sourceTree = "<group>"; };
+		5FD808261853BBF2009ED5AD /* LBSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD808291853BBF2009ED5AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FD8082B1853BBF2009ED5AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5FD8082D1853BBF2009ED5AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +67,10 @@
 		5FD808501853BBF3009ED5AD /* Library Barcode Secure SystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library Barcode Secure SystemTests-Info.plist"; sourceTree = "<group>"; };
 		5FD808521853BBF3009ED5AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FD808541853BBF3009ED5AD /* Library_Barcode_Secure_SystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Library_Barcode_Secure_SystemTests.m; sourceTree = "<group>"; };
+		5FD808641853EED8009ED5AD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5FD808651853EED8009ED5AD /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5FD808671853EFAA009ED5AD /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
+		5FD808681853EFAA009ED5AD /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +110,7 @@
 		5FD808271853BBF2009ED5AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FD808261853BBF2009ED5AD /* Library Barcode Secure System.app */,
+				5FD808261853BBF2009ED5AD /* LBSS.app */,
 				5FD808471853BBF3009ED5AD /* Library Barcode Secure SystemTests.xctest */,
 			);
 			name = Products;
@@ -112,11 +130,17 @@
 		5FD8082F1853BBF2009ED5AD /* Library Barcode Secure System */ = {
 			isa = PBXGroup;
 			children = (
-				5FD808381853BBF2009ED5AD /* LBSSAppDelegate.h */,
-				5FD808391853BBF2009ED5AD /* LBSSAppDelegate.m */,
 				5FD8083B1853BBF2009ED5AD /* Main.storyboard */,
 				5FD8083E1853BBF2009ED5AD /* LBSSViewController.h */,
 				5FD8083F1853BBF2009ED5AD /* LBSSViewController.m */,
+				5F22235F18591081002A3515 /* BarViewController.h */,
+				5F22236018591081002A3515 /* BarViewController.m */,
+				5F7AA56718591B0A00EA1D63 /* BarcodeDisplayView.h */,
+				5F7AA56818591B0A00EA1D63 /* BarcodeDisplayView.m */,
+				5FD808641853EED8009ED5AD /* User.h */,
+				5FD808651853EED8009ED5AD /* User.m */,
+				5F54CE011857AD6B005B63E0 /* LibraryDataBase.h */,
+				5F54CDFE1857AD3C005B63E0 /* LibraryDataBase.m */,
 				5FD808411853BBF2009ED5AD /* Images.xcassets */,
 				5FD808301853BBF2009ED5AD /* Supporting Files */,
 			);
@@ -126,6 +150,12 @@
 		5FD808301853BBF2009ED5AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F54CE001857AD4B005B63E0 /* LibraryUser.h */,
+				5F54CE021857AD75005B63E0 /* LibraryUser.m */,
+				5FD808671853EFAA009ED5AD /* Barcode.h */,
+				5FD808681853EFAA009ED5AD /* Barcode.m */,
+				5FD808381853BBF2009ED5AD /* LBSSAppDelegate.h */,
+				5FD808391853BBF2009ED5AD /* LBSSAppDelegate.m */,
 				5FD808311853BBF2009ED5AD /* Library Barcode Secure System-Info.plist */,
 				5FD808321853BBF2009ED5AD /* InfoPlist.strings */,
 				5FD808351853BBF2009ED5AD /* main.m */,
@@ -169,7 +199,7 @@
 			);
 			name = "Library Barcode Secure System";
 			productName = "Library Barcode Secure System";
-			productReference = 5FD808261853BBF2009ED5AD /* Library Barcode Secure System.app */;
+			productReference = 5FD808261853BBF2009ED5AD /* LBSS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5FD808461853BBF3009ED5AD /* Library Barcode Secure SystemTests */ = {
@@ -197,15 +227,18 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LBSS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = CBaker;
 				TargetAttributes = {
+					5FD808251853BBF2009ED5AD = {
+						DevelopmentTeam = YB3XPEYXU7;
+					};
 					5FD808461853BBF3009ED5AD = {
 						TestTargetID = 5FD808251853BBF2009ED5AD;
 					};
 				};
 			};
-			buildConfigurationList = 5FD808211853BBF2009ED5AD /* Build configuration list for PBXProject "Library Barcode Secure System" */;
+			buildConfigurationList = 5FD808211853BBF2009ED5AD /* Build configuration list for PBXProject "LBSS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F54CE081857B337005B63E0 /* Main.storyboard in Resources */,
 				5FD808421853BBF2009ED5AD /* Images.xcassets in Resources */,
 				5FD808341853BBF2009ED5AD /* InfoPlist.strings in Resources */,
-				5FD8083D1853BBF2009ED5AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD808661853EED8009ED5AD /* User.m in Sources */,
 				5FD808401853BBF2009ED5AD /* LBSSViewController.m in Sources */,
+				5F54CE031857AD75005B63E0 /* LibraryUser.m in Sources */,
+				5F7AA56918591B0A00EA1D63 /* BarcodeDisplayView.m in Sources */,
+				5F54CDFF1857AD3C005B63E0 /* LibraryDataBase.m in Sources */,
+				5F22236118591081002A3515 /* BarViewController.m in Sources */,
 				5FD8083A1853BBF2009ED5AD /* LBSSAppDelegate.m in Sources */,
 				5FD808361853BBF2009ED5AD /* main.m in Sources */,
+				5FD808691853EFAA009ED5AD /* Barcode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +345,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +383,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -379,10 +416,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Library Barcode Secure System/Library Barcode Secure System-Prefix.pch";
 				INFOPLIST_FILE = "Library Barcode Secure System/Library Barcode Secure System-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LBSS;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +432,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Library Barcode Secure System/Library Barcode Secure System-Prefix.pch";
 				INFOPLIST_FILE = "Library Barcode Secure System/Library Barcode Secure System-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LBSS;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,7 +446,6 @@
 		5FD8085C1853BBF3009ED5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library Barcode Secure System.app/Library Barcode Secure System";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +468,6 @@
 		5FD8085D1853BBF3009ED5AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library Barcode Secure System.app/Library Barcode Secure System";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -445,7 +486,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FD808211853BBF2009ED5AD /* Build configuration list for PBXProject "Library Barcode Secure System" */ = {
+		5FD808211853BBF2009ED5AD /* Build configuration list for PBXProject "LBSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FD808561853BBF3009ED5AD /* Debug */,
@@ -461,6 +502,7 @@
 				5FD8085A1853BBF3009ED5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD8085B1853BBF3009ED5AD /* Build configuration list for PBXNativeTarget "Library Barcode Secure SystemTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +511,7 @@
 				5FD8085D1853BBF3009ED5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
